@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../img/FANDORA LOGO.png';
+import { BiMenuAltRight } from "react-icons/bi";
 
 const NavBar = () => {
 
@@ -17,28 +18,31 @@ const NavBar = () => {
         <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300 '><NavLink to="/blog">Pre-NFT Rights</NavLink></li>
         <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/contactUs">Marketplace</NavLink></li>
         <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/contactUs">Login</NavLink></li>
-        <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300 btn-primary py-[21.5px] px-[41.3px]'><NavLink to="/contactUs"><span className=''>Sign Up</span></NavLink></li>
+        <li className='transition-colors ease-in-out text-sm font-bold text-white hover:text-[#52C1B9] duration-300 btn-primary py-[21.5px] px-[41.3px] rounded-[34px]'><NavLink to="/contactUs"><span className=''>Sign Up</span></NavLink></li>
     </React.Fragment>
 
     return (
-        <div className='bg-black py-[41px]'>
+        <div className='bg-[#080809] lg:py-[41px]'>
             {/*------------- Large device navbar start ----------------*/}
-            <nav className="w-full mx-auto backdrop-blur z-50">
-                <div className="max-w-[1200px] px-8 xl:mx-auto">
+            <nav className="w-full mx-auto z-50">
+                <div className="max-w-[1264px] px-8 xl:mx-auto">
                     <div className="flex items-center justify-between">
                         <div className="w-full items-center flex justify-between lg:w-auto">
                             <Link to={'/'} >
-                                <div className='relative'>
-                                    <img src={logo} alt="" />
+                                <div className='relative z-50'>
+                                    <img className='lg:w-[383px] w-[180px]' src={logo} alt="" />
                                 </div>
                             </Link>
                             <label onClick={handleMenuBtn} className="peer-checked:hamburger block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
-                                <div className="m-auto h-0.5 w-5 rounded bg-white dark:bg-gray-300 transition duration-300"></div>
-                                <div className="m-auto mt-2 h-0.5 w-5 rounded bg-white dark:bg-gray-300 transition duration-300"></div>
+                                {/* <div className="m-auto h-0.5 w-5 rounded bg-white dark:bg-gray-300 transition duration-300"></div>
+                                <div className="m-auto mt-2 h-0.5 w-5 rounded bg-white dark:bg-gray-300 transition duration-300"></div> */}
+                                <div className='text-[#52C1B9] hover:text-[#357b76] duration-300 text-4xl'>
+                                    <BiMenuAltRight></BiMenuAltRight>
+                                </div>
                             </label>
                         </div>
                         <div className="hidden w-full flex-wrap justify-end items-center space-y-8 p-6  lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
-                            <div className="text-gray-600 dark:text-gray-300">
+                            <div className="text-gray-600 dark:text-gray-300 z-50">
                                 <ul className="flex items-center justify-between w-[812.01px]">
                                     {menuContent}
                                 </ul>
@@ -51,7 +55,7 @@ const NavBar = () => {
             {/*------------- Mobile device navbar start ----------------*/}
             <div className={`${open ? 'flex' : 'hidden'} navbar-menu relative z-50`}>
                 <div className="navbar-backdrop fixed inset-0"></div>
-                <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-[#00040F] overflow-y-auto">
+                <nav className="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-[#07060E] overflow-y-auto">
                     <div className="flex items-center justify-end mb-8">
                         <button onClick={handleMenuBtn} className="navbar-close">
                             <svg className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

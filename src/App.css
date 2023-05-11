@@ -1,5 +1,24 @@
+.bg-primary{
+  background: linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%);
+}
+
 .btn-primary {
   background: linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%);
-  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02);
-  border-radius: 31px;
+  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02); 
+}
+
+.btn-outline {
+  color: #52C1B9;
+  border: 2px solid #52C1B9;
+  border-radius: 40px;
+  transition-duration: 300ms;
+}
+
+.btn-outline:hover {
+  color: white;
+  background-color: #52C1B9;
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
 }
