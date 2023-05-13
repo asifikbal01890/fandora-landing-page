@@ -1,10 +1,17 @@
-.bg-primary{
-  background: linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%);
+.bg-primary {
+  background: linear-gradient(309.43deg, #604DBC 1.49%, #15E8BA 98.51%);
+}
+
+.text-primary {
+  background: linear-gradient(90deg, #604DBC 0%, #15E8BA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .btn-primary {
   background: linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%);
-  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02); 
+  box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02);
 }
 
 .btn-outline {
@@ -21,4 +28,16 @@
 
 .font-bebas {
   font-family: 'Bebas Neue', sans-serif;
+}
+
+.card-shadow {
+  position: absolute;
+  left: 6.22%;
+  right: -9.34%;
+  top: 5.01%;
+  bottom: -13.77%;
+
+  background: rgba(23, 24, 31, 0.49);
+  filter: blur(20px);
+  border-radius: 46px;
 }
