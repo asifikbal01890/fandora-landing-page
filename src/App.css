@@ -2,6 +2,10 @@
   background: linear-gradient(309.43deg, #604DBC 1.49%, #15E8BA 98.51%);
 }
 
+.bg-marketplace {
+  background: linear-gradient(328.59deg, #8EC0D7 11.96%, #7F9ECF 33.35%, #5E4CB6 57.62%);
+}
+
 .text-primary {
   background: linear-gradient(90deg, #604DBC 0%, #15E8BA 100%);
   -webkit-background-clip: text;
@@ -12,6 +16,30 @@
 .btn-primary {
   background: linear-gradient(270.53deg, #604DBC 14.72%, #38A1BB 77.9%, #38A1BB 84.87%);
   box-shadow: 0px 18px 54px rgba(0, 0, 0, 0.02);
+}
+
+.btn-secondary {
+  background: #52C1B9;
+  border-radius: 101px;
+  padding: 24px 47px;
+  font-weight: 600;
+  transition-duration: 300ms;
+}
+
+.btn-secondary:hover {
+  background: #606060;
+}
+
+.btn-accent {
+  background: #606060;
+  border-radius: 101px;
+  padding: 24px 47px;
+  font-weight: 600;
+  transition-duration: 300ms;
+}
+
+.btn-accent:hover {
+  background: #52C1B9;
 }
 
 .btn-outline {
