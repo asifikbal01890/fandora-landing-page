@@ -20,26 +20,11 @@
 
 .btn-secondary {
   background: #52C1B9;
-  border-radius: 101px;
-  padding: 24px 47px;
-  font-weight: 600;
   transition-duration: 300ms;
 }
 
 .btn-secondary:hover {
   background: #606060;
-}
-
-.btn-accent {
-  background: #606060;
-  border-radius: 101px;
-  padding: 24px 47px;
-  font-weight: 600;
-  transition-duration: 300ms;
-}
-
-.btn-accent:hover {
-  background: #52C1B9;
 }
 
 .btn-outline {

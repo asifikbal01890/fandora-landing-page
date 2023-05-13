@@ -14,7 +14,7 @@ const HeroSection = () => {
                     <img className='lg:block hidden lg:w-full z-0' src={heroImg} alt="" />
                     <img className='lg:hidden block w-full z-0' src={heroImgForMobile} alt="" />
                 </div>
-                <div className='w-[1200px] mx-auto'>
+                <div className='max-w-[1200px] mx-auto'>
                     <div className='text-white absolute top-1 lg:top-[176px]'>
                         <h1 className='font-bebas text-[55px] lg:text-[140px] lg:w-[607px] leading-[90%] pl-[9px] text-center lg:text-start'>CALLING CREATORS OF THE FUTURE</h1>
                     </div>
@@ -31,7 +31,7 @@ const HeroSection = () => {
             </div>
             {/*--------- Header of hero section end -----------*/}
             {/*--------- Footer of hero section start -----------*/}
-            <div className='lg:w-[1200px] mx-auto mt-[14px] lg:mt-3 pl-[9px] lg:flex items-center'>
+            <div className='max-w-[1200px] mx-auto mt-[14px] lg:mt-3 pl-[9px] lg:flex items-center'>
                 <div>
                     <input type='email' name='email' className='bg-transparent text-white text-sm lg:text-xl py-4 lg:py-6 px-6 lg:px-9 w-full lg:w-[575px] border-2 lg:border-4 border-[#74B4B3] rounded-[83px] box-border focus-visible:outline-none focus-visible:border-[#4efff3]' placeholder='Enter Email Here' />
                 </div>
