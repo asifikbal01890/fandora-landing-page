@@ -1,6 +1,6 @@
 import React from 'react';
-import mobile from '../../img/marketplaceImg/Mobile Frame.png';
-import tablet from '../../img/marketplaceImg/Tablet Mockup.png';
+import mobile from '../../../img/marketplaceImg/Mobile Frame.png';
+import tablet from '../../../img/marketplaceImg/Tablet Mockup.png';
 
 const MarketplaceSection = () => {
     return (
