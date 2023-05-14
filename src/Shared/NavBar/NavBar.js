@@ -18,7 +18,7 @@ const NavBar = () => {
         <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300 '><NavLink to="/blog">Pre-NFT Rights</NavLink></li>
         <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/contactUs">Marketplace</NavLink></li>
         <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/contactUs">Login</NavLink></li>
-        <li className='transition-colors ease-in-out text-sm font-bold text-white hover:text-[#52C1B9] duration-300 btn-primary py-[21.5px] px-[41.3px] rounded-[34px]'><NavLink to="/contactUs"><span className=''>Sign Up</span></NavLink></li>
+        <li className='transition-colors ease-in-out text-sm font-bold text-white btn-primary py-[21.5px] px-[41.3px] rounded-[34px]'><NavLink to="/contactUs"><span className=''>Sign Up</span></NavLink></li>
     </React.Fragment>
 
     return (
