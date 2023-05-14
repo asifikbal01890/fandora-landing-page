@@ -34,8 +34,8 @@ const JoinDiscordSection = () => {
                 </section>
                 {/*---------- 2nd section end ----------*/}
                 {/*---------- 3rd section start ----------*/}
-                <section className='lg:flex justify-center mx-[31px]'>
-                    <div className='max-w-[1111px] mx-auto bg-white px-[24px] lg:px-[70px] pt-[33px] lg:pt-[50px] pb-[24.5px] rounded-[40px] lg:rounded-[50px] mt-[55px] lg:mt-20 mb-8 absolute'>
+                <section className='lg:flex justify-center'>
+                    <div className='max-w-[1111px] mx-[30px] lg:mx-auto bg-white px-[24px] lg:px-[70px] pt-[33px] lg:pt-[50px] pb-[24.5px] rounded-[40px] lg:rounded-[50px] mt-[55px] lg:mt-20 mb-8 absolute'>
                         <div className='lg:flex items-center gap-[51px] text-center lg:text-start'>
                             <div className='max-w-[419px]'>
                                 <h1 className='text-xl lg:text-[28px] leading-[22px] lg:leading-9 font-bold text-[#1B1B1D] max-w-[319px]'><span className='hidden lg:block'>Discover and sell your own NFTs</span> <span className='lg:hidden'>Pre-NFT Content and Rights Marketplace</span></h1>

@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
                 {/*----------- 1st line content end -----------*/}
                 {/*----------- border line ------------*/}
-                <p className='border border-[#FEFEFE1F] w-full mt-[19px] lg:mt-8 mb-6 lg:mb-9 mx-[30px] lg:mx-0'></p>
+                <p className='border border-[#FEFEFE1F] w-[85%] lg:w-full mt-[19px] lg:mt-8 mb-6 lg:mb-9 mx-[30px] lg:mx-0'></p>
                 {/*----------- 2nd line content start -----------*/}
                 <div className='lg:flex items-center justify-between'>
                     <div className='flex items-center justify-center gap-[27px]'>
