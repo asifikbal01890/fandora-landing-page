@@ -7,7 +7,7 @@ import tabletForResponsive from '../../../img/marketplaceImg/Tablet responsive.p
 const MarketplaceSection = () => {
     return (
         <div className='bg-marketplace'>
-            <div className='max-w-[1200px] mx-auto'>
+            <div className='max-w-[1200px] mx-auto mt-[-20px] lg:mt-0'>
                 {/*--------- 1st section start ----------*/}
                 <section className='flex justify-between'>
                     <img className='hidden lg:block' src={mobile} alt="" />

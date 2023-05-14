@@ -13,12 +13,12 @@ const NavBar = () => {
     console.log(open)
 
     const menuContent = <React.Fragment>
-        <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/">Home</NavLink></li>
-        <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300 '><NavLink to="/dashboard">Key Features</NavLink></li>
-        <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300 '><NavLink to="/blog">Pre-NFT Rights</NavLink></li>
-        <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/contactUs">Marketplace</NavLink></li>
-        <li className='transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300'><NavLink to="/contactUs">Login</NavLink></li>
-        <li className='transition-colors ease-in-out text-sm font-bold text-white btn-primary py-[21.5px] px-[41.3px] rounded-[34px]'><NavLink to="/contactUs"><span className=''>Sign Up</span></NavLink></li>
+        <li className={`${({isActive})=> isActive ? 'active' : undefined} transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300`}><NavLink to="/">Home</NavLink></li>
+        <li className={`${({isActive})=> isActive ? 'active' : undefined} transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300`}><NavLink to="/keyFeatures">Key Features</NavLink></li>
+        <li className={`${({isActive})=> isActive ? 'active' : undefined} transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300`}><NavLink to="/preNFTRight">Pre-NFT Rights</NavLink></li>
+        <li className={`${({isActive})=> isActive ? 'active' : undefined} transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300`}><NavLink to="/marketplace">Marketplace</NavLink></li>
+        <li className={`${({isActive})=> isActive ? 'active' : undefined} transition-colors ease-in-out text-base font-bold text-white hover:text-[#52C1B9] duration-300`}><NavLink to="/login">Login</NavLink></li>
+        <li className='transition-colors ease-in-out text-sm font-bold text-white btn-primary py-[21.5px] px-[41.3px] rounded-[34px]'><NavLink to="/signUp"><span className=''>Sign Up</span></NavLink></li>
     </React.Fragment>
 
     return (

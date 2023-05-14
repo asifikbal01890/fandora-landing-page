@@ -38,7 +38,7 @@ const FutureSection = () => {
         },
     ]
     return (
-        <div className='mt-[30px] lg:mt-[108px] pb-[33px] lg:pb-0 rounded-t-[31px] lg:rounded-t-[100px] bg-[#D9D9D9]'>
+        <div className='mt-[20px] lg:mt-[108px] pb-[33px] lg:pb-0 rounded-t-[31px] lg:rounded-t-[100px] bg-[#D9D9D9]'>
             <div className='pt-[87px] text-center max-w-[1200px] mx-auto'>
                 <h1 className='font-bebas text-[35px] lg:text-[130px] leading-[30px] lg:leading-[120px]'>Welcome to the Future</h1>
                 <h1 className='font-bebas text-[55px] lg:text-[130px] leading-[50px] lg:leading-[120px] text-primary'>Pre NFT Rights</h1>
