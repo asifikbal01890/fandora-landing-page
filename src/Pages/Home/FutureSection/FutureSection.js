@@ -38,19 +38,19 @@ const FutureSection = () => {
         },
     ]
     return (
-        <div className='mt-[30px] lg:mt-[108px] rounded-t-[31px] lg:rounded-t-[100px] bg-[#D9D9D9]'>
+        <div className='mt-[30px] lg:mt-[108px] pb-[33px] lg:pb-0 rounded-t-[31px] lg:rounded-t-[100px] bg-[#D9D9D9]'>
             <div className='pt-[87px] text-center max-w-[1200px] mx-auto'>
                 <h1 className='font-bebas text-[35px] lg:text-[130px] leading-[30px] lg:leading-[120px]'>Welcome to the Future</h1>
                 <h1 className='font-bebas text-[55px] lg:text-[130px] leading-[50px] lg:leading-[120px] text-primary'>Pre NFT Rights</h1>
-                <p className='text-lg lg:text-[25px] leading-[22px] lg:leading-[35px] mt-[30px] tracking-[-0.001em]'>Imagine a real life auction, <i>but everything is an NFT</i>.</p>
-                <p className='text-lg lg:text-[25px] leading-[22px] lg:leading-[35px] tracking-[-0.001em]'>Fandora is the first platform that enables creators to auction or sell their NFT rights to their audience. These pre NFT rights enable your audience to build content around you, pay you, and also share royalties. With Fandora, creators can do all this easily - without all the tech-speak.</p>
-                <h5 className='text-lg lg:text-[25px] leading-[22px] lg:leading-[35px] font-semibold text-[#438ABC] tracking-[-0.001em] mt-[30px]'>These are the different types of NFT rights you can sell</h5>
+                <p className='text-lg lg:text-[25px] leading-[22px] lg:leading-[35px] mt-[30px] tracking-[-0.001em] mx-[30px] lg:mx-0'>Imagine a real life auction, <i>but everything is an NFT</i>.</p>
+                <p className='text-lg lg:text-[25px] leading-[22px] lg:leading-[35px] tracking-[-0.001em] mx-[30px] lg:mx-0'>Fandora is the first platform that enables creators to auction or sell their NFT rights to their audience. These pre NFT rights enable your audience to build content around you, pay you, and also share royalties. With Fandora, creators can do all this easily - without all the tech-speak.</p>
+                <h5 className='text-lg lg:text-[25px] leading-[22px] lg:leading-[35px] font-semibold text-[#438ABC] tracking-[-0.001em] mt-[30px] mx-[30px] lg:mx-0'>These are the different types of NFT rights you can sell</h5>
                 <div>
                     {/*-------- Service cards section start --------- */}
 
             <div>
                 {/*--------- Cards for mobile device start-------- */}
-                <div className='lg:hidden block'>
+                <div className='lg:hidden block mt-[46px] lg:mt-0 ml-[-60px] lg:ml-0'>
                     <FutureCardsMobile
                         cardsInfo={cardsInfo}
                     ></FutureCardsMobile>

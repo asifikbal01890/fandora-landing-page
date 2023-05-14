@@ -51,18 +51,18 @@ const SimplicitySection = () => {
 
     return (
         <div className='max-w-[1200px] mx-auto text-center mt-[121px]'>
-            <div className='font-bebas text-[55px] lg:text-[130px] text-primary leading-[60px] lg:leading-[100px] block lg:flex justify-center'>
+            <div className='font-bebas text-[55px] lg:text-[130px] text-primary leading-[60px] lg:leading-[100px] block lg:flex justify-center mx-[30px] lg:mx-0'>
                 <h1 className='text-start'>Simplicity</h1>
                 <h1>{arrow}</h1>
                 <h1 className='text-end'>Jargon</h1>
             </div>
-            <p className='text-lg lg:text-[25px] text-white lg:mt-4'>We take care of everything so the artists can focus on what they do best. Create art.</p>
+            <p className='text-lg lg:text-[25px] text-white lg:mt-4 mx-[30px] lg:mx-0'>We take care of everything so the artists can focus on what they do best. Create art.</p>
 
             {/*-------- Service cards section start --------- */}
 
             <div>
                 {/*--------- Cards for mobile device start-------- */}
-                <div className='lg:hidden block'>
+                <div className='lg:hidden block mt-5 lg:mt-0 ml-[-60px]'>
                     <CardsForMobile
                         cardsInfo={cardsInfo}
                     ></CardsForMobile>

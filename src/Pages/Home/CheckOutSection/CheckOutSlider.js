@@ -5,14 +5,11 @@ import imgThree from '../../../img/SliderImg/Image 3.png';
 import imgFour from '../../../img/SliderImg/unnamed 1.png';
 import imgFive from '../../../img/SliderImg/unnamed 2.png';
 import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-// import "swiper/css/effect-cards";
+import 'swiper/css/effect-cards';
+import "swiper/css/effect-cards";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCards, EffectCoverflow, Navigation, Pagination } from 'swiper';
-import './he.css'
+import { EffectCards } from 'swiper';
+
 
 
 const CheckOutSlider = () => {
@@ -22,32 +19,13 @@ const CheckOutSlider = () => {
     return (
         <div className=''>
             <Swiper
-                // effect={'coverflow'}
-                // grabCursor={true}
-                // centeredSlides={true}
-                // loop={true}
-                // slidesPerView={'auto'}
-                // coverflowEffect={{
-                //     rotate: 0,
-                //     stretch: 0,
-                //     depth: 100,
-                //     modifier: 17,
-                // }}
-                // pagination={{ el: '.swiper-pagination', clickable: true }}
-                // navigation={{
-                //     nextEl: '.swiper-button-next',
-                //     prevEl: '.swiper-button-prev',
-                //     clickable: true,
-                // }}
-                // modules={[EffectCoverflow, Pagination, Navigation]}
-                // className="swiper_container"
             effect={'cards'}
             grabCursor={true}
-            // centeredSlides={true}
+            centeredSlides={true}
             loop={true}
-            // slidesPerView={'auto'}
+            slidesPerView={'auto'}
             modules={[EffectCards]}
-            className='mySwiper'
+            className='mySwiper w-[183px] lg:w-[320px] h-[230px] lg:h-[404px] mt-[-70px] lg:mt-[-50px] mb-[-89px] lg:mb-[-34px]'
             >
                 <SwiperSlide>
                     <img className='w-[320px] h-[404px]' src={imgOne} alt="" />

@@ -11,7 +11,7 @@ const CardsForMobile = ({ cardsInfo }) => {
     return (
         <>
             <Swiper
-                slidesPerView={4}
+                slidesPerView={2}
                 centeredSlides={true}
                 spaceBetween={20}
                 grabCursor={true}
