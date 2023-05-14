@@ -7,7 +7,7 @@ import { FaDiscord } from "react-icons/fa";
 
 const JoinDiscordSection = () => {
     return (
-        <div className='bg-[#1B1B1D] rounded-b-[100px] relative mb-[259px]'>
+        <div className='bg-[#1B1B1D] rounded-b-[100px] relative mb-[329px] lg:mb-[259px]'>
             <div className='max-w-[1200px] mx-auto pt-[41px] lg:pt-[35px] pb-[208px]'>
                 {/*---------- 1st section start ----------*/}
                 <section className='flex items-center gap-[85px]'>
